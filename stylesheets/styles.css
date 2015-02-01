@@ -47,20 +47,25 @@ a{
 }
 
 .fa{
-	-webkit-transition: all .2s;
-	-o-transition: all .2s;
-	transition: all .2s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
 }
 .fa:hover {
-  -webkit-transform: scale(1.3) rotate(15deg);
-  -ms-transform: scale(1.3) rotate(15deg);
-  -o-transform: scale(1.3) rotate(15deg);
-  transform: scale(1.3) rotate(15deg);
-  color: #b19cd9;
+  -webkit-transform: scale(1.3) rotate(375deg);
+  -ms-transform: scale(1.3) rotate(375deg);
+  -o-transform: scale(1.3) rotate(375deg);
+  transform: scale(1.3) rotate(375deg);
 }
 .fa-pencil:hover {
-  color: #ff85a2;
+  color: #CF5300;
 }
 .fa-github:hover {
   color: black;
-}  
+}
+.fa-twitter:hover{
+  color: white;
+} 
+.fa-briefcase:hover{
+  color: #98e698;
+} 
